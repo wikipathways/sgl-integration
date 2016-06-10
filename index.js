@@ -36,7 +36,7 @@ $(document).ready(function() {
       var updatedEditorOpenState = annotationElement.hasClass('editor-open');
       if (editorOpenState && !updatedEditorOpenState) {
         console.log('Sending update to SGL');
-        submitSGLActivity('basicquickedit');
+        submitSGLActivity('easy');
       }
       editorOpenState = updatedEditorOpenState;
     });
