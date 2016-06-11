@@ -1,5 +1,4 @@
 $(window).load(function() {
-window.setTimeout(function() {
   var sglEnabledUserNames = [
     'Ariutta',
     'AlexanderPico',
@@ -42,5 +41,4 @@ window.setTimeout(function() {
       editorOpenState = updatedEditorOpenState;
     });
   }
-}, 10000);
 });
