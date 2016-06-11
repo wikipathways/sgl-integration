@@ -1,4 +1,5 @@
 $(window).load(function() {
+window.setTimeout(function() {
   var sglEnabledUserNames = [
     'Ariutta',
     'AlexanderPico',
@@ -42,3 +43,4 @@ $(window).load(function() {
     });
   }
 });
+}, 10000);
