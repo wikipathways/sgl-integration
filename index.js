@@ -42,5 +42,5 @@ window.setTimeout(function() {
       editorOpenState = updatedEditorOpenState;
     });
   }
-});
 }, 10000);
+});
