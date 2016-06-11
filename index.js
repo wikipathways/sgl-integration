@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).load(function() {
   var sglEnabledUserNames = [
     'Ariutta',
     'AlexanderPico',
