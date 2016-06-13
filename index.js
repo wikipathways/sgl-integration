@@ -1,11 +1,14 @@
 $(window).load(function() {
-  var sglEnabledUserNames = [
+  var currentUserNameLC = !!window.wgUserName ?  String(window.wgUserName).toLowerCase() : window.wgUserName;
+  var sglEnabledLCUserNames = [
     'Ariutta',
     'AlexanderPico',
     'Khanspers',
     'bgood',
-  ];
-  if (!!window.SGL && sglEnabledUserNames.indexOf(window.wgUserName) > -1) {
+  ].map(function(userName) {
+    return userName.toLowerCase();
+  });
+  if (!!window.SGL && sglEnabledLCUserNames.indexOf(currentUserNameLC) > -1) {
     var token;
     var myParam = location.search.split('token=')[1];
     if (myParam != undefined) {
