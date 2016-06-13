@@ -3,6 +3,7 @@ $(window).load(function() {
     'Ariutta',
     'AlexanderPico',
     'Khanspers',
+    'bgood',
   ];
   if (!!window.SGL && sglEnabledUserNames.indexOf(window.wgUserName) > -1) {
     var token;
